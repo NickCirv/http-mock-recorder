@@ -1,0 +1,47 @@
+{
+  "name": "http-mock-recorder",
+  "version": "1.0.0",
+  "description": "Record real HTTP traffic and replay it as mocks. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "http-mock-recorder": "./index.js",
+    "hmr": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "http",
+    "mocking",
+    "testing",
+    "proxy",
+    "fixtures",
+    "http-proxy",
+    "mock-server",
+    "api-mocking",
+    "record-replay",
+    "integration-testing"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/http-mock-recorder.git"
+  },
+  "homepage": "https://github.com/NickCirv/http-mock-recorder#readme",
+  "bugs": {
+    "url": "https://github.com/NickCirv/http-mock-recorder/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
