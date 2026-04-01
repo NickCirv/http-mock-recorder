@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # http-mock-recorder
 
 > Record real HTTP traffic. Replay it as mocks. Zero dependencies.
